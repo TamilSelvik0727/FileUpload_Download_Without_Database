@@ -1,0 +1,184 @@
+What is
+		# a client side js framework.
+		# executed only by the browser.
+
+
+
+
+AngularJs
+
+	# Rich Internet Application.
+	# Single Page Application.
+	# MVC Pattern.
+	# Cross Browswer Compatability.
+	# Open Source & Free
+	
+	
+Disadvantages
+
+	# No security for source
+	# JavaScript must be enabled to work.
+	
+	
+Concepts/Module
+
+
+	# Databinding
+		
+		Two Way Data Binding
+		
+			# keeps the model and view in sync at all the times.
+			# a change in the model updates the view.
+			# a change in view updates the model.
+			
+			# Binding expression updates the view when the model changes-{{message}}
+			# Binding expression updates the model when the view changes  ng-model
+			
+			
+			ng-model
+			
+				->input
+				->select
+				->textarea
+	# Providers
+	# Validators
+	# Directives
+	
+			# Extends the HTML  element attributes.
+			# Mostly start with ng-
+			# Contains Many Built-in directives.
+			# Able to create and customize directives
+			# also start with x-,data-,:,_.
+			
+			
+			
+		BuiltIn Directives
+			
+			ng-app 	    -> start to angular application.<html><body><div>(bootsraped application)
+			ng-init	    -> to initalize the values,string. like expression.
+			ng-model    -> Use to 2Way data binding,
+			ng-bind     -> thrugh ng-bind also can display the expression value in html control.<span >
+			ng-repeat   -> mostly used in arrays, or collection of elements
+			ng-readOnly -> cannot edit the element ,can read only.
+			ng-disabled -> can fix the htlm element.also based on the expression result.
+			ng-if       -> to take the element or Recreate it based on the expression.
+			
+		
+	# Controllers
+			
+			# It is  a JavaScript object.
+			# Contains properties and functions.
+			# Application data's are controlled by controlers
+			# The job of the controller is to build a model for the view to display.
+			# $scope is used as a parameter ,refers the module controlled by the controller.
+			# ng-controller directive is used.
+			# Controllers can be stored as a external files.
+			# can define many controllers
+			
+			var myController = function ($scope){
+			$scope.message="Angular js";}
+	# Model
+	
+			# One of the component of mvc Architecture.
+			# Managing the data used in application.
+			# Used to Handle user interactions such as clicking.
+			# $scope object is used by the model, which contain data and fucntions.
+			# ng-model is used for data binding.connecting model in view.
+	
+	
+	# Modules
+	
+			
+			# Angular js identified the file where the module created.
+			# container for different parts of application.
+			# Used to define 
+				-> functionalities
+				-> add controllers
+				-> filters
+				-> services
+				-> directives to the applications.
+			# Easy to reduce the code in different applications.
+			# Module is attached to the controller to define the logical boundary for the controller.
+			# It is easily testable and maintanable component.
+			# Used to organize application easily.
+			
+		Module Types.
+		
+			# Application module
+					# ng-app used to speficy the module.
+			
+				<script>
+				var mod=angular.module("sample",[]); []-it does not dependent .
+				mod.servive('service name',function)
+				mod.factory('factory name',function)
+				mod.provider('provider name',function)
+				</scrcipt>
+				
+				
+			# Controller module
+				<script>
+					var mod=angular.module("sample",[]);
+					mod.controller('controller name',function)</script>
+					-> ng-controller is used to speficy.
+				
+			
+			
+			
+	# Expression
+			
+			# Angular js evaluates expression and bind the result with HTML similar to javascript.
+			# Contains Literals,Operators,Variables.
+			# {{Expression}}, ng-bind=expressoin.
+			# Numbers,Strings,Objects,Arrays,are used.
+			# ng-app,ng-app =""attribute is must to know angularjs,<body><div>
+			# ng-init --->Used to initialize the variables.
+			
+	AngularJs vs Js Expressions
+	
+		-> Cannot contain loops,conditions,exceptions 
+			ex-while loop,for loop,if else.
+			
+		-> Cannot contain functions
+		
+		-> Cannot contain comma
+		
+	SOrting Data in Angular Js
+		
+		
+		#  Useorder By Filter
+			-> {{orderBy_expression | orderBy : expression : reverse}}
+			-> Example:ng-repeat="employee in employees | orderby:'salary':false"
+			
+		# To sort in ascending order,set reverse to false.
+		# To sort in descending order,set reverse to true.
+		# also use + and - to sort in ascending and descending order respectively.
+			-> Example:ng-repeat="employee in employees | orderby:'+salary'"
+		
+		
+		
+	# Factories
+	# Services
+	# Filters
+	# Dependency Injection
+	# Scope
+	
+		# Scope is an Build in object.
+		# It contains data and fucntion.
+		# Used to bind view (HTML)part /and controller part(JavaScript)
+		# View can display $scope data using an expression ,
+		# ng-model,ng-bind directive.
+		
+	ScopeTypes
+		# $rootScope
+			-> Global(parent for all the scope object)
+			-> given in ng-app directive.
+			-> and avilability of data is in the full application.
+		# $scope
+			-> childObject 
+			-> local to that HTML Element.
+			
+			
+		
+	
+	
+	

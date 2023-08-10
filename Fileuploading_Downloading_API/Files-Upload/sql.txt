@@ -1,0 +1,69 @@
+SQL 
+
+	# Structured Query Language is a Language.
+	# Used to communicate with Database and retrive /manipulate the data from it.
+	
+	
+Database 
+
+	# Used to store the information /data.
+	
+	# It has a table like structure consists of rows/record and columns/field.
+	
+
+Querying data
+
+	# Select  	----> Column1,Column2 ,(* total records)
+	# From 		----> Table name
+	# Where		----> Conditions
+	# Group By	----> Columns
+	# Having 	----> Conditions
+	# Order By 	----> Columns(Order something asc,desc).
+	
+	
+Mandatory
+
+	# SELECT
+	# FROM
+	
+DATA TYPES
+
+	# Used to specify the basic behaviour of a column in table.
+	# Datatype(Length)
+	
+	
+	*NUMBER    -> Numbers/Integers
+	
+	*CHAR      -> Alpha+Number+Spl($)length 2000 only
+	
+	*VARCHAR2  -> Alpha+Number+Spl($)length 4000 only,VARIABLE CHARACTER,does not take null 
+	LONG      -> 2GB Alpha+Number+Spl char only once/table
+	*CLOB      -> 4GB Alpha+Number+Spl char (CLOB-Character large object)
+	BLOB      -> 8GB Image Binary Large Object
+	DATE	  -> DATE(15-06-2001)
+	TIMESTAMP -> TIMESTAMP( 15-06-2001 01:30:15:28)
+	BFILE     -> Path/links/urlz(To store path)
+	XMLTYPE   ->XML Datas
+	
+	
+	
+RELATIONAL OPERATORS:
+
+		|| -> Pipe symbol
+		
+		
+SUBSET
+
+	#DDL
+	#DML
+	#DCL
+	#TCL
+	
+	
+DDL-DATA DEFINITION LANGUAGE
+
+	#
+	
+	481
+	401
+		

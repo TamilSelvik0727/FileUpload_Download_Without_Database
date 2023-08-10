@@ -1,0 +1,332 @@
+Service-Oriented Architecture
+	
+	# Refer 1.1.1
+	# SOA Provides an Enterprise Architecture.
+	# That supports building connected enterprise application to provide solutions to business problems.
+	# SOA facilitates the development of enterprise applications.
+	# As modular business webservices that can be 
+	
+			# Easily Integrated
+			# Reused
+			# Creating a truly flexible
+			# Adaptable IT Inffrastructure.
+			
+SERVICES
+
+	# SOA Seperates business function into distinct units,or services.
+	
+	# SOA Application reuses services to automate a business process.
+	
+	# A standard interface and message structure define services.
+	
+	# The Most widely used mechanism are Webservices.
+	
+	# These standard include the WSDL-Webservice Description Language.
+	   file for service interface definition .
+	   
+	# XML Schema Documents (XSD) for message structure defenition.
+	
+	# XML Standards are easily exchanged using standard protocol.
+	
+	# When designing a SOA approach, you create a service portfolio plan to identify
+	  common functionality to use as a service within the business process. 
+	  
+	# By Creating and maintaining a plan ,you ensure that existing services and applications are reused
+	  ,or repurpose when ever possible.
+	  
+	# Also reduces the time spent in creating needed functionality for the application
+	
+	
+ORACLE SOA SUITE
+	
+	# Oracle soa suite provides  a complete set of service infrastructure components for
+		
+			->Designing
+			->Deploying
+			->Managing composite application.
+			
+	# It enables services to be 
+	
+		->created,
+		->managed,
+		->Orchestra into composite applications and 
+		business process.
+		
+	# Composite enable you to easily assemble multiple technology components into one SOA composite applications.
+	
+	# It plugs into hetrogeneous IT Infrastructure and enables enterprise to incrementally adopt SOA.
+	
+	# The components of Oracle Suite is benefit from Common capabilities,
+	
+		-> Single deployment
+		-> Management
+		-> Tooling model
+		-> end-to-end security
+		-> unifield metadata management.
+		
+	# It is unique in that provides set of integrated capabilities.
+	
+		# Messaging
+		# Service discovery
+		# Orchestration
+		# Web services management and security.
+		# Business rules
+		# Human Integration
+		# Events framework
+		# Business activity monitoring.
+		
+		
+		
+Standards Used by Oracle SOA Suite to Enable SOA
+	
+	# Oracle soa suite puts a strong emphasis on standars and interoperability.
+		
+	# Service Component Architecture (SCA) assembly model.
+	
+			# Provides the service details and their interdependencies to forfm composite applications
+			
+			# SCA enables you to represent business logic as reusable service components 
+			
+				-> that can be easily integrated into any SCA-compliant application.
+				
+			# The specification fro the SCA Standard is maintained by the 
+			
+				->(OASIS) Organization for the Advancement of Structured Information Standards through the open
+				->(CSA) Composite Services Architecture Member section.
+	
+	# Service Data Objects(SDO)
+	
+			# It specifies a standard data method and can be mokdify business data regardless of how it is physically accessed
+			
+			# Knowledge is not required about how to access a particular back-end data souce to use SDO in a SOA composite application
+		
+			# Consequently ,you can use static or dynamic programming styles and obtain connected and disconnected access.
+			
+			
+BPEL-Business Process Execution Language
+
+	# Provides enterprise with an industry standard fro business-process orchestration and execution.
+	
+	# Using BPEL ,you design a business process that integrates a series of discrete services into an end to end process flow.
+	
+	# This integration reduces process cost and complexity.
+	
+	# Bpel version 1.1 and 2.0 are supported.
+	
+	
+XSL Transformation (XSLT)
+
+	# rocess XML documents and transforms document data from one XML Schema to another.
+	
+XQuery Transformation (XQuery)
+
+	# Queries and transforms collections of structured and unstructured data ,typically in the form of XML.
+		 
+Java Connector Architecture(JCA)
+
+	# Provides a java technology solutions to the problem of connectivity between the many applications servers in Enterprise Information System(EIS)
+	
+Java Messaging Service(JMS)
+
+	# Provides a messaging standard that allows application components based on the
+	  Java 2 Platform, Enterprise Edition (Java EE) to access business logic distributed
+	  among heterogeneous systems.
+	  
+	  
+Web Service Defenition Language(WSDL) file
+
+	# Provides the entry point to SOA Application.
+	# WSDL provides  a standard contract language.
+	# central of understanding the capabilities of a service.
+	
+	
+Simple Object Access Protocol(SOAP)
+
+	# Provides default network protocol for message delivery.
+	
+Representational state protocol(REST)
+
+	# It provides an architecture for designing network applications.
+	# RESTful application use HTTP request to post data
+	
+		->CREATE
+		->UPDATE
+		->GET DATA(make queries)
+		->DELETE
+		
+	#REST provides an alternative to using webservice.
+	
+JavaScript Object Notation (JSON)
+
+	# It provides a language for representing 
+	
+		->simple data structure 
+		->associative arrays
+		
+		called objects.
+		
+	# Json is a standard designed for human-readable data interchange.
+	
+	# derived from JavaScript .
+	
+Web Application Description Language
+
+	# Provides a readable XML Description of HTTP-based web applications
+	(REST Web Service)
+	
+	# It simplifies the Reuse of webservices.
+	
+	# Based on the existing HTTP architecture of the web. 
+	
+	
+	
+Service Component Architecture within SOA Composite Applications
+
+	# Orcale SOA Suite uses the SCA Standards.
+	
+	# as a way to assemble service components into SOA Composite application.
+	
+	# SCA Provides a programming model for
+	
+	
+		->Creating service components written with wide range of technologies.
+		->Including Programming languages
+		
+			# JAVA
+			# C++
+		->Declarative languages
+		
+			# XSLT
+			
+		->The use of specific progranning and technologies (Webservices) not required with SCA.
+	
+		-> Assembling the service components in to a SOA Composite applications.
+		
+		->In the SCA Environment ,service components are building blocks of application.
+		
+		
+	# SCA Provides a model for assembling distributed groups of service components into an application
+	
+	# It Enabling you to describe the details of service and how services and service components interact.
+	
+	# Composites are used to group service components.
+	
+	# Wires are used to connect service components.
+	
+	# SCA helps to remove middle ware concerns from the programming code 
+	
+		->by applying infrastructure declaratively to composites, including security and transaction.
+		
+		
+		
+SCA BENEFITS
+
+
+	# Loose Coupling-
+	
+	# Flexibility-replaced by other service components easily.
+	
+	# Service invocation-invoked either synchronously or asynchronously
+	
+	# Productivity-easily intergrated to create soa composite application.
+	
+	# Easy maintenance and debugging-
+	
+	
+	
+	# SOA composite is an assembly of 
+		->services ,
+		->service components,
+		->referenes designed
+		->deployed in single application.
+		
+	# Wiring b/w services,service,components,and references enables message communication.
+	
+	# The details for  a composite are stired in composite.xml file
+	
+	refer1.1 image
+	
+SERVICE COMPONENTS
+
+
+	# It is building blocks
+	# that you use to construct a SOA Composite application
+	
+	
+BPEL PROCESS
+
+	# It provides process orchestration and storage of a
+	
+	
+			->Synchronous or
+			->asynchronous process.
+			
+	# you design a business process that integrates a series of business activities and services into end-to-end process flow.
+	
+	
+Business Rules
+
+	# It enables you to design a business decision based on rules.
+	
+	
+Human Tasks
+
+	# It provides workflow modeling that describes the task for users or groups to perform as a part of end-to-end business process flow.
+	
+Mediators
+
+	# It route events (message) between different components.
+	
+	
+Spring
+
+	# It enables you to integrate java interfaces into SOA composite applications.
+	
+	
+SubProcess
+
+	# It allows the same code to be reused within the same BPEL.
+	
+	
+
+	
+BINDING COMPONENTS
+
+	# Binding components establish a connection between a SOA Composite and the external world.
+		
+	# 2 Types
+		
+	# SERVICES
+		
+			-> Services provides the outside world with an entry point to the SOA Composite application.
+			
+			-> The WSDL file of the service adverties its capabilities to external applications.
+			
+			-> These capabilities are used fro contacting the soa composite application components.
+			
+			-> The binding connectivity of the service describes the protocols that can communicate with the service.
+			
+			-> for example SOAP/HTTP or JCA Adapter.
+			
+	#REFERENCES
+		
+			-> References enables messages to be sent from the SOA composite application to external services in the outside world.
+			
+			
+WIRES
+
+	# It enables you to graphically connect the following components in a single SOA Composite application for messaging communication.
+	
+	
+		-> Service to service components
+		
+		-> Service components to other Service components.
+		
+		-> Service components to references.
+		
+
+
+	
+		
+		
+			
